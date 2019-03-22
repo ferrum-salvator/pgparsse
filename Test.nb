@@ -1,0 +1,68 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      1833,         60]
+NotebookOptionsPosition[      1429,         45]
+NotebookOutlinePosition[      1790,         61]
+CellTagsIndexPosition[      1747,         58]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"AppendTo", "[", 
+   RowBox[{"$Path", ",", 
+    RowBox[{"NotebookDirectory", "[", "]"}]}], "]"}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{"Needs", "[", "\"\<pgparsse`\>\"", "]"}]}], "Input",
+ GeneratedCell->False,
+ CellAutoOverwrite->False,
+ CellChangeTimes->{
+  3.744282067502206*^9, {3.7541303319247713`*^9, 3.754130337310254*^9}, {
+   3.754130379818985*^9, 3.7541303837403593`*^9}, {3.7541307757868567`*^9, 
+   3.7541307769259243`*^9}, 
+   3.762261277645255*^9},ExpressionUUID->"a18557a7-7abd-451a-bef8-\
+6f76452a2d79"],
+
+Cell[BoxData[
+ RowBox[{"(*", 
+  RowBox[{"ParsePGPass", "[", "]"}], "*)"}]], "Input",
+ GeneratedCell->False,
+ CellAutoOverwrite->False,
+ CellChangeTimes->{
+  3.744282067502206*^9, {3.762261254295079*^9, 3.762261262216742*^9}},
+ CellLabel->"In[61]:=",ExpressionUUID->"a4f8ce61-c51b-4694-b898-910ee8e9392b"]
+},
+WindowSize->{809, 781},
+WindowMargins->{{286, Automatic}, {Automatic, 82}},
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->"Solarized III.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 560, 14, 51, "Input",ExpressionUUID->"a18557a7-7abd-451a-bef8-6f76452a2d79"],
+Cell[1121, 36, 304, 7, 28, "Input",ExpressionUUID->"a4f8ce61-c51b-4694-b898-910ee8e9392b"]
+}
+]
+*)
+
