@@ -21,7 +21,7 @@ pgpassParsedFile[path_] := Map[
 
 parseLine[l_] := <|
     "JDBC String" ->
-            "jdbc:postgresql://" <> l[[1]] <> ":" <> l[[2]] <> "/" <> l[[3]],
+        "jdbc:postgresql://" <> l[[1]] <> ":" <> l[[2]] <> "/" <> l[[3]],
     "Username" -> l[[4]], "Password" -> l[[5]]|>;
 
 ParsePGPass[path_ : "~/.pgpass"] := Map[parseLine, pgpassParsedFile[path]];
